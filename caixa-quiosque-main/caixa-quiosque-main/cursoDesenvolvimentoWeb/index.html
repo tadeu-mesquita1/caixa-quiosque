@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa do Quiosque</title>
+</head>
+<body>
+    <h1>Caixa do Quiosque</h1>
+
+    <div id = "produtos">
+        <h2>Produtos</h2>
+        <h3>Hamburguer</h3>
+        <button data-nome="Hamburguer" data-preco="9">Hamburguer 9R$</button>
+        <button data-nome="x-burguer" data-preco="12">x-burguer 12R$</button>
+        <button data-nome="egg-burguer" data-preco="14">egg-burguer 14R$</button>
+        <button data-nome="x-bacon" data-preco="16"> x-bacon 16R$</button>
+        <button data-nome="x-tudo" data-preco="18"> x-tudo 18R$</button>
+        <button data-nome="big lanche" data-preco="22">big lanche 22R$</button>
+        <button data-nome="mega lanche" data-preco="26">mega lanche 26R$</button>
+        <button data-nome="artesenal" data-preco="30">artesenal 30R$</button>
+        <h3>Açai</h3>
+        <button data-nome="Açai200ml" data-preco="10">Açai200ml 10R$</button>
+        <button data-nome="Açai250ml" data-preco="11">Açai250ml 11R$</button>
+        <button data-nome="Açai300ml" data-preco="13">Açai300ml 13R$</button>
+        <button data-nome="Açai400ml" data-preco="15">Açai400ml 15R$</button>
+        <button data-nome="Açai500ml" data-preco="17">Açai500ml 17R$</button>
+        <button data-nome="Açai700ml" data-preco="23">Açai700ml 23R$</button>
+        <button data-nome="Açai1Litro" data-preco="34">açai1Litro 34R$</button>
+
+        <h3>bebidas</h3>
+        <button data-nome="lata" data-preco="6">coca/fanta/guarana lata 6R$</button>
+        <button data-nome="guaravita" data-preco="3">guaravita 3R$</button>
+        <button data-nome="agua" data-preco="3"> agua 3R$</button>
+        <button data-nome="coca 2litro" data-preco="14">coca 2litro 14R$</button>
+        <button data-nome="suco 300ml" data-preco="8">suco300ml 8R$</button>
+        <button data-nome="suco 500ml" data-preco="10">suco500ml 10R$</button>
+
+        <h3>Adicionais</h3>
+        <button data-nome="carneExtra" data-preco="2">carne 2R$</button>
+        <button data-nome="queijoExtra" data-preco="2">queijo 2R$</button>
+        <button data-nome="carnePicanha" data-preco="6">carne picanha 6R$</button>
+        <button data-nome="ovoExtra" data-preco="2">ovo 2R$</button>
+    </div>
+
+    <div id="pedido">
+        <h2>Pedido Atual</h2>
+        <ul id="lista-pedido"></ul>
+        <p>Total: R$ <span id="total">0</span></p>
+        <button id="btn-finalizar">finalizar vendas</button>
+    </div>
+
+    <div id="resumo">
+        <h2>total do dia</h2>
+        <p>total vendido: R$<span id="total-dia">0</span></p>
+        <ul id="historico"></ul>
+        <button id="btn-zera">zera total do dia</button>
+        
+    </div>
+</body>
+</html>
